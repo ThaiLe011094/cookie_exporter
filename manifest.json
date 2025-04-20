@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Edge Cookie Exporter",
+  "version": "1.0",
+  "description": "Exports cookies from the current tab as JSON.",
+  "permissions": ["cookies", "activeTab", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "src/cookie.png"
+  }
+}
